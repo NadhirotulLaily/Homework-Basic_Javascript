@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tab-content {
+    display: none;
+    
+}
+
+.active {
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    line-height: 1.5;
+    border: 1px solid #5d5f61;
+    
+}
+
+.tab {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.tab button {
+    background-color: inherit;
+    border-radius: 0.25rem;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.tab button:hover {
+    background-color: #ddd;
+  }
+   
+.tab-content {
+    width: 420px;
+    height: 520px;
+    top: 50%;
+    left: 50%;
+    padding: 20px 30px;
+    position: absolute;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 209, 240);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.btn-submit {
+    color: #fff;
+    background-color: #4098f5;
+    border-color: #007bff;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.35rem;
+}
+
